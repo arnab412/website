@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <title>Welcome to my website</title>
+
+    <style>
+
+      body {
+
+        text-align: center;
+
+        font-family: sans-serif;
+
+      }
+
+      .greeting {
+
+        font-size: 2em;
+
+        color: #333;
+
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <h1 class="greeting">Hello and welcome to my website!</h1>
+
+    <script>
+
+      var userName = prompt("Please enter your name:");
+
+      if (userName) {
+
+        document.querySelector('.greeting').textContent += ", " + userName;
+
+      }
+
+    </script>
+
+  </body>
+
+</html>
+
